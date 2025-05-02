@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowCraft Candles</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="candle.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">GlowCraft Candles</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <!-- Hero Section -->  <section id="hero" class="d-flex align-items-center" style="background: url('images/hero.jpg') center/cover no-repeat; height: 80vh;">
+    <div class="container text-center text-white">
+      <h2 class="display-4 fw-bold">Handmade Candles with Heart</h2>
+      <p class="lead mb-4">Bring warmth and light to your space with our beautiful, handcrafted candles.</p>
+      <a href="#gallery" class="btn btn-primary btn-lg">Explore Collection</a>
+    </div>
+  </section>  <!-- Gallery Section -->  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="mb-5 text-center">Our Collection</h2>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card border-0 shadow-sm hover-shadow">
+            <img src="/storage/emulated/0/Download/pexels-jonathanborba-2950326.jpg" class="card-img-top" alt="Candle 1">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card border-0 shadow-sm hover-shadow">
+            <img src="/storage/emulated/0/Download/pexels-pixabay-278823.jpg" class="card-img-top" alt="Candle 2">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card border-0 shadow-sm hover-shadow">
+            <img src="/storage/emulated/0/Download/pexels-lilartsy-1721096.jpg" class="card-img-top" alt="Candle 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- About Section -->  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">About Us</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p>GlowCraft Candles is a small passion project where each candle is crafted with care and creativity. We use quality wax and scents to make each piece special.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="/storage/emulated/0/Download/pexels-yankrukov-7234502.jpg" class="img-fluid rounded about-img" alt="About GlowCraft">
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Contact Section -->  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <p>Have a question or want to connect?</p>
+            <p>Email us at <a href="mailto:info@glowcraft.com">info@glowcraft.com</a></p>
+            <p>Follow us on social media:</p>
+            <!-- Placeholder for social icons -->
+            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 GlowCraft Candles. All rights reserved.</p>
+    </div>
+  </footer>  <!-- Bootstrap Bundle JS (with Popper) -->  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script></body>
+</html>
